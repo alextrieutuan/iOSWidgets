@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:background="@drawable/bg_ui_alert_view"
+    android:stateListAnimator="@null">
+
+    <TextView
+        android:id="@+id/text_dialog_title"
+        style="@style/UIAlertController.TitleText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Confirmation" />
+
+    <TextView
+        android:id="@+id/text_dialog_message"
+        style="@style/UIAlertController.MessageText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_dialog_title"
+        tools:text="iOS look same like me! Agree?" />
+
+    <TextView
+        android:id="@+id/text_dialog_action_first"
+        style="@style/UIAlertController.ActionView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/vertical_line"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/horizontal_line"
+        tools:text="No"
+        tools:textColor="#007aff" />
+
+    <TextView
+        android:id="@+id/text_dialog_action_second"
+        style="@style/UIAlertController.ActionView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/vertical_line"
+        app:layout_constraintTop_toTopOf="@+id/horizontal_line"
+        tools:text="Yes"
+        tools:textColor="#007aff"
+        tools:textStyle="bold" />
+
+    <View
+        android:id="@+id/horizontal_line"
+        style="@style/UIAlertController.DividerHorizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_dialog_message" />
+
+    <View
+        android:id="@+id/vertical_line"
+        style="@style/UIAlertController.DividerVertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontal_line" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
