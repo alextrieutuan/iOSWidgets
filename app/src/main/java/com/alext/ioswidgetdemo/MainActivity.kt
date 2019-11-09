@@ -3,8 +3,8 @@ package com.alext.ioswidgetdemo
 import android.app.Dialog
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.axonvibe.sojocommon.widget.ioscosplay.UIAlertController
-import com.axonvibe.sojocommon.widget.ioscosplay.UILoadingController
+import com.alext.ioswidgets.UIAlertController
+import com.alext.ioswidgets.UILoadingController
 
 class MainActivity : AppCompatActivity() {
 

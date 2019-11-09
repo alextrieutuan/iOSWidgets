@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:stateListAnimator="@null">
 
-    <com.axonvibe.sojocommon.widget.ioscosplay.SpinView
+    <com.alext.ioswidgets.SpinView
         android:id="@+id/spin_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

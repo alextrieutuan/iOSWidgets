@@ -1,4 +1,4 @@
-package com.axonvibe.sojocommon.widget.ioscosplay
+package com.alext.ioswidgets
 
 import android.app.Dialog
 import android.content.Context
@@ -11,7 +11,6 @@ import android.view.View
 import android.view.ViewGroup.LayoutParams.MATCH_PARENT
 import android.widget.LinearLayout
 import android.widget.TextView
-import com.alext.ioswidgets.R
 
 class UIAlertController private constructor(
     context: Context,

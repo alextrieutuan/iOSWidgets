@@ -1,4 +1,4 @@
-package com.axonvibe.sojocommon.widget.ioscosplay
+package com.alext.ioswidgets
 
 import android.content.Context
 import android.graphics.Canvas

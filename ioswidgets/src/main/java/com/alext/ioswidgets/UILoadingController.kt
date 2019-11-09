@@ -1,4 +1,4 @@
-package com.axonvibe.sojocommon.widget.ioscosplay
+package com.alext.ioswidgets
 
 import android.app.Dialog
 import android.content.Context
